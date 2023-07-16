@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawand Acorn</title>
+    <link rel="styleSHEET" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="tracking-wider">
+<header class="bg-primary">
+    <nav class="container mx-auto p-6 bg-primary text-cl-white flex justify-between items-center">
+        <div class="py-5 text-secondary  font-bold text-3xl hover:scale-105 z-10 transition ">
+            <a href="#home">
+                <span class="text-cl-white ">Lawand</span>Acorn.
+            </a>
+        </div>
+
+        <div >
+            <ul class="hidden lg:flex items-center  space-x-6">
+                <li><a class="hover:text-secondary ease-in duration-200" href="#home">Home</a></li>
+                <li><a class="hover:text-secondary ease-in duration-200" href="#experiences">Experiences</a></li>
+                <li><a class="hover:text-secondary ease-in duration-200" href="#about-me">About Me</a></li>
+                <li><a class="hover:text-secondary ease-in duration-200" href="#education">Education</a></li>
+                <li><a class="hover:text-secondary ease-in duration-200" href="#projects">Projects</a></li>
+                <li><a class="hover:text-secondary ease-in duration-200" href="#contact">Contact</a></li>
+                <li><a href="#my-skills"><button class="bg-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Skills</button></a></li>
+            </ul>
+        </div>
+         <!-- Mobile screen  -->
+        <div id="menuIcon" class="lg:hidden cursor-pointer z-50">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="menu" class="hidden bg-primary-dark h-[100vh] absolute inset-0">
+            <ul class="h-full grid place-items-center py-20">
+                <li><a id="hLink" class="hover:text-secondary ease-in duration-200" href="#home">Home</a></li>
+                <li><a id="hLink" class="hover:text-secondary ease-in duration-200" href="#experiences">Features</a></li>
+                <li><a id="hLink" class="hover:text-secondary ease-in duration-200" href="#about-us">About Us</a></li>
+                <li><a id="hLink" class="hover:text-secondary ease-in duration-200" href="#pricing">Pricing</a></li>
+                <li><a id="hLink" class="hover:text-secondary ease-in duration-200" href="#projects">Blog</a></li>
+                <li><a id="hLink" class="hover:text-secondary ease-in duration-200" href="#contact">Contact</a></li>
+                
+                <li><button class="btn">free trial</button></li>
+                
+            </ul>
+        </div>
+    </nav>
+   
+</header> 
+<main>
+    <section id="home" class="relative">
+
+        <div class="blob1"></div>
+        <div class="blob2 "></div>
+
+        <div class="container mx-auto py-20">
+            <div class="flex flex-col items-center md:flex-row">
+                <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                    <h1 class="title mb-4">
+                        I Work As a Web Developer For Acornassociated organization.
+                    </h1>
+                    <p class="leading-relaxed mb-10">
+                        Acorn associated is an Engineering and Logistics NGO established in August 2022 
+                        in order to help facilitate system-change societies.
+                        
+                    </p>
+                    <a href="https://acornassociated.org">
+                    <button class="btn">Acorn Associated</button></a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="./img/img1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experiences" class=" bg-primary-light">
+        <div class="container mx-auto py-20">
+            <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-secondary mb-4">My Experiences</h4>
+                <h1 class="title">I Possess The Skill And Experience in The Following Areas</h1>
+            </div>
+
+            <div class=" grid lg:grid-cols-3 md:grid-cols-3 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+                <!-- card no 1 -->
+                <div class="bg-white border-2 border-solid border-white text-center py-20 px-5 rounded-2xl cursor-pointer hover:scale-105 z-10 transition   ">
+                    <div class="bg-secondary inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Web Developer</h3>
+                    <p class="leading-relaxed">I am proficient in several programming languages and web frameworks</p>
+                </div>
+                <!-- card no 2 -->
+                <div class="bg-white border-2 border-solid border-white text-center py-20 px-5 rounded-2xl cursor-pointer hover:scale-105 z-10 transition   ">
+                    <div class="bg-secondary inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-robot text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Robotics</h3>
+                    <p class="leading-relaxed">The ability to automate a robot to simulate reality, and dealing with robots is a hobby and passion</p>
+                </div>
+                <!-- card no 3 -->
+                <div class="bg-white border-2 border-solid border-white text-center py-20 px-5 rounded-2xl cursor-pointer hover:scale-105 z-10 transition   ">
+                    <div class="bg-secondary inline-block rounded-2xl py-5 px-6">
+                        <i class="fa-solid fa-image text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Graphic Design</h3>
+                    <p class="leading-relaxed">Work in this field is not limited to images only, but also to websites. </p>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container mx-auto py-20 relative">
+            <div class="blob1"></div>
+        <div class="blob2 "></div>
+            <div class="flex flex-col items-center justify-between md:flex-row">
+                <div class="mb-12 md:w-1/2">
+                    <img src="./img/education.png" alt="">
+                </div>
+                <div class="text-center md:text-left md:ml-20">
+                    <h4 class="font-bold text-secondary mb-4">My Education</h4>
+                    <h1 class="title mb-4">Higher Institute of Mechatronics at Rojava University</h1>
+                    <p class="leading-relaxed mb-10">The university was founded in July 2016 with curricula for medicine, engineering, sciences, arts, and humanities.</p>
+                   <a href="https://en.wikipedia.org/wiki/University_of_Rojava"> <button class="btn">Rojava University</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="language" class=" bg-primary-light">
+        <div class="container mx-auto py-20 ">
+            <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-secondary mb-4">Languages</h4>
+                <h1 class="title">The Languages I Master</h1>
+            </div>
+            <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+                <!-- card 1 --> 
+                <div class="text-center cursor-pointer">
+                    <div class="relative bg-secondary inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-primary ease-in duration-200">
+                        <p class="text-6xl lg:after:content-[''] lg:after:flex lg:after:absolute lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+                            1
+                        </p>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Arabic</h3>
+                    <p class="leading-relaxed">Excellent</p>
+                </div>
+                <!-- card 2 -->
+                <div class="text-center cursor-pointer">
+                    <div class="relative bg-primary inline-block px-6 py-3 rounded-lg cursor-pointer">
+                        <p class="text-6xl text-white lg:after:content-[''] lg:after:flex  lg:after:absolute lg:after:top-10 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+                            2
+                        </p>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">Kurdish</h3>
+                    <p class="leading-relaxed">Native</p>
+                </div>
+                <!-- card 3 -->
+                <div class="text-center cursor-pointer">
+                    <div class="relative bg-secondary inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-primary ease-in duration-200">
+                        <p class="text-6xl text-white">
+                            3
+                        </p>
+                    </div>
+                    <h3 class="text-xl font-bold py-4">English</h3>
+                    <p class="leading-relaxed">Very good   </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="my-skills">
+        <div class="container mx-auto py-20">
+             <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-secondary mb-4">My Skills</h4>
+                <h1 class="title">Some of my skills that I acquired during study and work</h1>
+            </div>
+            <!-- review container-->
+                   <!-- review container  -->
+                <div class="mt-8">
+                    <div class="flex items-center justify-center flex-wrap">
+                        <img src="./img/python.png" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic" onclick="showReview()">
+                        <img src="./img/cv.png" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="./img/php.png" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="./img/laravel.png" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="./img/tailwindcss.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+
+                    </div>
+                <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[20vh]">
+                    <div class="user-text active-text">
+                        <p class="md:text-2x mb-6">I used a lot of Python libraries in projects, so I have good experience with it. Some of the libraries and packages I used in Python: <br>PyQt - Tkinter - Face recognition  - Sound recognition - Google translate .....</p>
+                            <h4 class="font-bold text-secondary mb-1">Python</h4>
+                            <p>Programming language</p>
+                    </div>
+                    <div class="user-text">
+                        <p class="md:text-2x mb-6">Recently I started researching in the field of Computer Vision, and opencv was the best choice</p>
+                            <h4 class="font-bold text-secondary mb-1">OpenCv</h4>
+                            <p>Computer vision</p>
+                    </div>
+                    <div class="user-text">
+                        <p class="md:text-2x mb-6">Working in the field of web applications requires learning strong and effective languages, and PHP is one of the best. I worked in this language on many projects</p>
+                            <h4 class="font-bold text-secondary mb-1">Php</h4>
+                            <p>Programming language</p>
+                    </div>
+                    <div class="user-text">
+                        <p class="md:text-2x mb-6">Frameworks offer many advantages and design options to facilitate work and make applications free from loopholes. Many projects have been implemented using this framework, whether they are websites or applications...</p>
+                            <h4 class="font-bold text-secondary mb-1">Laravel</h4>
+                            <p>PHP Framework</p>
+                    </div>
+                      <div class="user-text">
+                        <p class="md:text-2x mb-6">Tailwind CSS is a utility-first CSS framework for rapidly building modern websites. This site was created using Tailwind CSS</p>
+                            <h4 class="font-bold text-secondary mb-1">Tailwind Css</h4>
+                            <p>CSS Framework</p>
+                </div>
+              
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section id="about-me" class="bg-primary-light">
+        <div class="container mx-auto h-[80vh] grid place-items-center">
+            <div class="text-center md:w-2/3 m-auto">
+                <h1 class="title">You can contact me via the number below</h1>
+                <p class="leading-relaxed pt-5">Also, all my social media links are <a href="#footer" class="text-secondary">here</a></p>
+                <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
+                    <a href="#" class="bg-white h-16 w-60 grid place-items-center rounded-lg hover:opacity-70">
+                        <i class="fa-solid fa-location-dot cursor-pointer hover:text-secondary"> Qamishli</i>
+                    </a>
+                    <a href="#" class="bg-white h-16 w-60 grid place-items-center rounded-lg hover:opacity-70">
+                       <i class="fa-solid fa-phone cursor-pointer hover:text-secondary"> +963-951-641-501</i>
+                       
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container mx-auto py-20">
+            <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-secondary mb-4">My Projects</h4>
+                <h1 class="title">Some Of The Projects I Have Finished</h1>
+               
+                </div>
+                <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/spider.png" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>15 May 2022</p>
+                               
+                            </div>
+    
+                            <a href="#projects" class="text-2xl font-bold underline hover:text-secondary hover:no-underline">Spider Robot</a>
+    
+                            <p class="leading-relaxed my-5">One of the first projects that I started to complete with my team during my studies at the Institute, and the project was the first step in understanding terminal robots.</p>
+    
+    
+                            <a href="#projects" class="inline-block font-bold hover:text-secondary transition-all duration-300 ease-in-out">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/hexapod.jpeg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>24 July 2022</p>
+                            </div>
+    
+                            <a href="#projects" class="text-2xl font-bold underline hover:text-secondary hover:no-underline">Hexapod Robot</a>
+    
+                            <p class="leading-relaxed my-5">Hexapods remain one of the most complex robots from studying and implementing its algorithm for walking, and we presented this project as a graduation project.</p>
+    
+    
+                            <a href="#projects" class="inline-block font-bold hover:text-secondary transition-all duration-300 ease-in-out">
+                            </a>
+                        </div>
+                    </div>
+                <!-- card no 3 -->
+                <div>
+                    <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                        <img src="./img/school.png" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-5 py-5">
+                            <p>25 June 2022</p>
+                        </div>
+                        <a href="#projects" class="text-2xl font-bold underline hover:text-secondary hover:no-underline">School Managment System</a>
+                        <p class="leading-relaxed my-5">It is not possible when entering the world of programming not to expand on it, one of the software programs that I have completed with the laravel framework.</p>
+                        <a href="#projects" class="inline-block font-bold hover:text-secondary transition-all duration-300 ease-in-out">
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container mx-auto py-20">
+            <div class="text-center m-auto mb-20 md:w-1/2">
+                <h4 class="font-bold text-secondary mb-4 ">Have A Questation</h4>
+                <h1 class="title">Get In Touch</h1>
+            </div>
+            <form>
+                <div class="w-full m-auto text-center md:w-2/3">
+                    <div class="text-primary-dark grid gap-6 mb-6 md:grid-cols-2">
+                        <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Name">
+            <input type="email" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Email">
+            <input type="tel" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Phone">
+            <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Company">
+                    </div>
+                    <textarea rows="4" class="text-primary-dark bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-secondary" placeholder="Message"></textarea>
+                    <button class="btn mt-10 text-white">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="bg-primary relative">
+            <div class="container mx-auto py-10 text-white">
+                <div class="grid gap-10 md:grid-cols-3 pb-10 ">
+                    <div class="space-y-6 ">
+                        <h4 class="font-bold text-lg">About Website</h4>
+                        <p class="leading-relaxed">The Site Displays My Personal Information. If You Need Help,
+                            You Can Contact Me Via The Information </p>
+                        <div class="flex gap-5 items-center">
+                            <p>Follow Us</p>
+                            <a href="https://www.facebook.com/lawand.haj?mibextid=ZbWKwL" target="_blank">
+                                <i class="fa-brands fa-facebook-f cursor-pointer hover:text-secondary"></i></a>
+
+                            <a href="https://twitter.com/yousef_lawand?s=09" target="_blank">
+                                <i class="fa-brands fa-twitter cursor-pointer hover:text-secondary"></i>
+                            <a href="https://www.linkedin.com/in/lawand-yousef-56a992268" target="_blank">
+                                <i class="fa-brands fa-linkedin cursor-pointer hover:text-secondary"></i>
+                            <a href="https://instagram.com/yousef_lawand02?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+                                <i class="fa-brands fa-instagram cursor-pointer hover:text-secondary"></i>
+                            <a href="https://github.com/Lawand02" target="_blank">
+                                <i class="fa-brands fa-github cursor-pointer hover:text-secondary"></i></a>
+                            <a href="mailto:lawand@acornassociated.org" target="_blank">
+                                <i class="fa-solid fa-envelope cursor-pointer hover:text-secondary"></i></a>
+
+                            
+                        </div>
+                    </div>
+                    <div class="flex justify-between md:justify-around">
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Quick Links</h4>
+                            <ul class="space-y-3">
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#">Home</a></li>
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#experiences">Experiences</a></li>
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#my-skills">Skills</a></li>
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#education">Education</a></li>
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#projects">Projects</a></li>
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Help</h4>
+                            <ul class="space-y-3">
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#about-me">About Me</a></li>
+                               
+                                <li class="underline hover:no-underline hover:text-secondary"><a href="#contact">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <h4 class="font-bold text-lg">Newsletter</h4>
+                        <p class="leading-relaxed">Subscribe With Email </p>
+                        <div class="flex items-center">
+                            <input type="text" class="w-3/4 text-gray bg-white p-2 lg:p-3 rounded-l-md focus:outline-none text-secondary" placeholder="Enter Your Email">
+                            
+                            <button type="submit" class="bg-secondary px-4 py-2 lg:px-5 lg:py-3 rounded-r-md hover:opacity-90">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center pt-10 border-t border-gray">
+                    <p>2023 &copy; LawandAcorn. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+</main> 
+<script>
+    // Mobile menu
+    const menuIcon = document.querySelector('#menuIcon');
+    const menu = document.querySelector('#menu');
+    const hLink = document.querySelectorAll('#hLink');
+    const faSolid = document.querySelector('.fa-solid');
+
+    menuIcon.addEventListener("click",() => {
+        menu.classList.toggle('hidden');
+        faSolid.classList.toggle('fa-xmark')
+    })
+    
+    hLink.forEach(link => {
+        link.addEventListener('click',()=>
+        {
+            menu.classList.toggle('hidden');
+            faSolid.classList.toggle('fa-xmark')
+        })
+    })
+   
+</script> 
+</body>
+</html>
